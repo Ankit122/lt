@@ -6,7 +6,6 @@
         <div class="col-md-10 col-md-offset-1">
             <div class="panel panel-default">
                 <div class="panel-heading">Add Hotels</div>
-
                 <div class="panel-body">
                 @if( Session::has('message') )
                     <div class="alert alert-success" role="alert">
@@ -20,6 +19,7 @@
                         <input type="text" class="form-control" name="hname"  placeholder="Add Hotels">
                       </div>
                       <button type="submit" class="btn btn-default">Submit</button>
+                      <button> type="reset" class="btn-default">Reset</button>
                     </form>
                 </div>
             </div>
